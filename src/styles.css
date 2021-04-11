@@ -32,3 +32,11 @@ header {
   height: 100%;
   width: 100%;
 }
+
+/* ~~~~~ GRID RULES ~~~~~ */
+.recipient-container {
+  background-image: url('../assets/milkyway-background.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 95vh
+}
