@@ -1,0 +1,16 @@
+/* ~~~~~ GLOBAL RULES ~~~~~ */
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+html {
+  background-color: rgba(225, 225, 225, .9);
+  font-size: 1em;
+}
+
+nav {
+  background-image: url('../assets/planets-nav-bar.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+}
