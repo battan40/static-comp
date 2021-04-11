@@ -1,31 +1,34 @@
 /* ~~~~~ GLOBAL RULES ~~~~~ */
 * {
   font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
 }
 
 html {
-  background-color: rgba(225, 225, 225, .9);
   font-size: 1em;
 }
 
 nav {
-  background-image: url('../assets/planets-nav-bar.jpg');
+  background-image: url('../assets/nav-bar-img.png');
   background-size: cover;
   background-position: center;
   display: flex;
-}
-img {
-  height: auto;
-  max-width: 25%
+  flex-direction: column;
+  height: 17vh;
 }
 
 a {
-  margin: 0;
+  color: rgba(225, 225, 225, .9);
 }
 
 header {
-  background-image: linear-gradient(lavender, #f0eadc, #b9efe1);
   font-size: 1.3em;
+  color: black;
+  padding: 2%;
+}
+
+section {
+  display: grid;
 }
 
 .main {
@@ -33,27 +36,76 @@ header {
   width: 100%;
 }
 
-/* ~~~~~ GRID RULES ~~~~~ */
-.recipient-container {
-  background-image: url('../assets/milkyway-background.jpg');
-  background-size: cover;
-  background-position: center;
-  height: 95vh
+/* ~~~~~ NAVIGATION RULES ~~~~~ */
+.admin-link,
+.astro-page-icon {
+  margin-left: auto;
 }
 
-.recipient-grid {
+.admin-username {
+  align-items:flex-start;
+  flex-direction: row;
+}
+
+/* .astro-icon-img {
+  width: 55%;
+} */
+
+.personal-chart-info {
+  margin-top: auto;
+  display: flex;
+}
+
+.personal-chart-info > a {
+  margin-left: 20px;
+}
+
+/* ~~~~~ GRID RULES ~~~~~ */
+.recipient-wrapper {
+  margin-top: 0;
+  background-image: url('../assets/background-wall-paper.png');
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  height: 175vh;
+  width: 100%;
+}
+
+.recipient-grid,
+.sign-square {
   display: grid;
   grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto;
   grid-gap: 1%;
-  margin: 10%;
-  padding: 3%;
+  padding: 2%;
+  box-shadow:
+  0px 0px 2px 2px rgba(0, 0, 0, 0.5),
+  0px 0px 4px 4px rgba(0, 0, 0, 0.3)
 }
 
 .sign-square {
-  width: 100%;
-  height: 100%;
+  position: relative;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  z-index: 1;
+  color: midnightblue;
+}
+
+.sign-square-top > img {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  height: 50%;
+}
+
+.sign-square-info {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  background-image: url('../assets/recipient-info.png');
+  background-size: cover;
+  background-position: center;
 }
