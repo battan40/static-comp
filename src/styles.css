@@ -40,3 +40,11 @@ header {
   background-position: center;
   height: 95vh
 }
+
+.recipient-grid {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 1%;
+  margin: 10%;
+  padding: 3%;
+}
