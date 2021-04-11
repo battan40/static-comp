@@ -8,3 +8,20 @@
 
 * `HTML`
 * `CSS`
+## Goals and Objectives
+
+* Responsive Design
+* Refresh CSS skills after a month long break
+* Clean `HTML`, `CSS`
+* Utilize Normalize
+
+## OverView
+
+* This project was an opportunity to take a break from `javaScript` project work and simply create a static comp with responsive design.
+
+## Setup
+
+* Clone this repo
+* Open code in text editor
+* Read README.md
+* Review code display by enjoying the deployed site
