@@ -42,3 +42,9 @@
 * Offer visual experience experience for the user that is empathetic
 * Offer a code experience for the reviewer that is empathetic
 * Utilize semantic `HTML`
+
+## Road Map
+
+* Future iterations would include more time spent on the `CSS` and `HTML` to offer a deeper UI/UX
+* Experimentation with `SASS`
+* Assurance of Responsive design at every level and not simply pieces of this
