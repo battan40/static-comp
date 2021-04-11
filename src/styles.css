@@ -14,3 +14,21 @@ nav {
   background-position: center;
   display: flex;
 }
+img {
+  height: auto;
+  max-width: 25%
+}
+
+a {
+  margin: 0;
+}
+
+header {
+  background-image: linear-gradient(lavender, #f0eadc, #b9efe1);
+  font-size: 1.3em;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
