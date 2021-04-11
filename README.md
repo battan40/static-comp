@@ -48,3 +48,9 @@
 * Future iterations would include more time spent on the `CSS` and `HTML` to offer a deeper UI/UX
 * Experimentation with `SASS`
 * Assurance of Responsive design at every level and not simply pieces of this
+
+## Preview
+
+<p align="left">Create Idea Page</br>
+ <img width="1000" height="500" src="../assets/preview-static-astro.png">
+</p>
