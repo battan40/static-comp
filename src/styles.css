@@ -1,0 +1,149 @@
+/* ~~~~~ GLOBAL RULES ~~~~~ */
+* {
+  font-family: 'Open Sans', sans-serif;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1em;
+}
+
+nav {
+  background-image: url('../assets/nav-bar-img.png');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  height: 17vh;
+}
+
+a {
+  color: rgba(225, 225, 225, .9);
+}
+
+header {
+  font-size: 1.3em;
+  color: black;
+  padding: 2%;
+}
+
+section {
+  display: grid;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+}
+
+/* ~~~~~ NAVIGATION RULES ~~~~~ */
+.admin-link,
+.astro-page-icon {
+  margin-left: auto;
+}
+
+.admin-username {
+  align-items:flex-start;
+  flex-direction: row;
+}
+
+/* .astro-icon-img {
+  width: 55%;
+} */
+
+.personal-chart-info {
+  margin-top: auto;
+  display: flex;
+}
+
+.personal-chart-info > a {
+  margin-left: 20px;
+}
+
+/* ~~~~~ GRID RULES ~~~~~ */
+.recipient-wrapper {
+  margin-top: 0;
+  background-image: url('../assets/background-wall-paper.png');
+  background-size: cover;
+  background-position: center;
+  display: grid;
+  height: 175vh;
+  width: 100%;
+}
+
+.recipient-grid,
+.sign-square {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: auto;
+  grid-gap: 1%;
+  padding: 2%;
+  box-shadow:
+  0px 0px 2px 2px rgba(0, 0, 0, 0.5),
+  0px 0px 4px 4px rgba(0, 0, 0, 0.3)
+}
+
+.sign-square {
+  position: relative;
+}
+
+.back-arrow {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+  z-index: 1;
+  color: midnightblue;
+}
+
+.sign-square-top > img {
+  display: flex;
+  width: 100%;
+  height: 50%;
+}
+
+.sign-square-info {
+  display: flex;
+  width: 100%;
+  height: 50vh;
+  background-image: url('../assets/recipient-info.png');
+  background-size: cover;
+  background-position: center;
+}
+@media only screen and (max-device-width: 812px)
+{
+
+  .recipient-wrapper {
+    height: 400vh;
+    width: 100%;
+  }
+
+  .recipient-grid,
+  .sign-square {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    box-shadow: none;
+
+  }
+
+  .sign-square-top > img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .sign-square-info {
+    display: flex;
+    width: 100%;
+    height: 100%;
+  }
+
+  .personal-chart-info {
+    margin-top: auto;
+    display: block;
+  }
+
+  .personal-chart-info > a {
+    margin-left: 10px;
+  }
+
+}
