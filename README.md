@@ -34,3 +34,11 @@
 ## Contributors
 
 * [Angela Battillo](https://github.com/battan40)
+
+## Functionality Goals
+
+* Fully responsive CSS Styling
+* Use of normalize.css through linked html file
+* Offer visual experience experience for the user that is empathetic
+* Offer a code experience for the reviewer that is empathetic
+* Utilize semantic `HTML`
