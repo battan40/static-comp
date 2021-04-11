@@ -25,3 +25,12 @@
 * Open code in text editor
 * Read README.md
 * Review code display by enjoying the deployed site
+
+## Project Links
+
+* [Repo](https://github.com/battan40/static-comp)
+* [Deployed Site]()
+
+## Contributors
+
+* [Angela Battillo](https://github.com/battan40)
