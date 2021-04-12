@@ -53,6 +53,6 @@
 
 ## Preview
 
-<p align="left">Create Idea Page</br>
- <img width="1000" height="500" src="../assets/preview-static-astro.png">
+<p align="left">Preview Responsive</br>
+ <img width="1000" height="500" src="./assets/preview-static-astro.png">
 </p>
