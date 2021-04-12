@@ -49,6 +49,7 @@
 * Experimentation with `SASS`
 * Assurance of Responsive design at every level of screen size
 * Full representation of icons for screen enhancement
+* Flesh out `HTML` with sequential tags to fill in the `.sign-square` `<article>`s
 
 ## Preview
 
