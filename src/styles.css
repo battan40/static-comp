@@ -67,10 +67,9 @@ section {
   width: 100%;
 }
 
-.recipient-grid,
-.sign-square {
+.recipient-grid {
   display: grid;
-  grid-template-columns: repeat(4, auto);
+  grid-template-columns: repeat(4, 1fr);
   grid-template-rows: auto;
   grid-gap: 1%;
   padding: 2%;
@@ -85,8 +84,8 @@ section {
 
 .back-arrow {
   position: absolute;
-  top: 5%;
-  left: 10%;
+  top: 3%;
+  left: 7%;
   z-index: 1;
   color: midnightblue;
 }
