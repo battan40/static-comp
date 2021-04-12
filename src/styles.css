@@ -96,15 +96,14 @@ section {
 }
 
 .sign-square-top > img {
-  display: flex;
+
   width: 100%;
-  height: 50%;
+  height: 20vh;
 }
 
 .sign-square-info {
-  display: flex;
   width: 100%;
-  height: 50vh;
+  height: 70%;
   background-image: url('../assets/recipient-info.png');
   background-size: cover;
   background-position: center;
@@ -114,7 +113,7 @@ section {
 {
 
   .recipient-wrapper {
-    height: 400vh;
+    height: 700vh;
     width: 100%;
   }
 
@@ -129,17 +128,16 @@ section {
   .sign-square-top > img {
     display: flex;
     width: 100%;
-    height: 100%;
+    height: 50vh;
+    margin-bottom: 10%
   }
 
   .sign-square-info {
     display: flex;
-    width: 100%;
-    height: 100%;
   }
 
   .personal-chart-info {
-    margin-top: auto;
+    margin-top: 5%;
     display: block;
   }
 
