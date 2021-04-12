@@ -29,7 +29,7 @@
 ## Project Links
 
 * [Repo](https://github.com/battan40/static-comp)
-* [Deployed Site]()
+* [Deployed Site]( https://battan40.github.io/static-comp/)
 
 ## Contributors
 
@@ -49,6 +49,7 @@
 * Experimentation with `SASS`
 * Assurance of Responsive design at every level of screen size
 * Full representation of icons for screen enhancement
+* Flesh out `HTML` with sequential tags to fill in the `.sign-square` `<article>`s
 
 ## Preview
 
