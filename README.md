@@ -29,7 +29,7 @@
 ## Project Links
 
 * [Repo](https://github.com/battan40/static-comp)
-* [Deployed Site]()
+* [Deployed Site]( https://battan40.github.io/static-comp/)
 
 ## Contributors
 
