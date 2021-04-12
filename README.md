@@ -47,7 +47,8 @@
 
 * Future iterations would include more time spent on the `CSS` and `HTML` to offer a deeper UI/UX
 * Experimentation with `SASS`
-* Assurance of Responsive design at every level and not simply pieces of this
+* Assurance of Responsive design at every level of screen size
+* Full representation of icons for screen enhancement
 
 ## Preview
 
