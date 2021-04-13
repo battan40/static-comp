@@ -63,7 +63,7 @@ section {
   background-size: cover;
   background-position: center;
   display: grid;
-  height: 175vh;
+  height: 100%;
   width: 100%;
 }
 
@@ -93,23 +93,43 @@ section {
 .sign-square-top > img {
 
   width: 100%;
-  height: 20vh;
+  height: 15em;
 }
 
 .sign-square-info {
   width: 100%;
-  height: 21vh;
+  height: 14em;
   background-image: url('../assets/recipient-info.png');
   background-size: cover;
   background-position: center;
 }
 
 /* ~~~~~ RESPONSIVE RULES ~~~~~ */
-@media only screen and (max-device-width: 812px)
-{
+
+@media screen and (max-width: 987px) {
 
   .recipient-wrapper {
-    height: 700vh;
+    height: 175rem;
+    width: 100%;
+  }
+
+  .recipient-grid,
+  .sign-square {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    box-shadow: none;
+  }
+
+  .sign-square-info {
+    display: flex;
+    height: 17em;
+  }
+}
+
+@media screen and (max-width: 812px) {
+
+  .recipient-wrapper {
+    height: 275rem;
     width: 100%;
   }
 
@@ -123,12 +143,13 @@ section {
   .sign-square-top > img {
     display: flex;
     width: 100%;
-    height: 50vh;
+    height: 15em;
     margin-bottom: 10%
   }
 
   .sign-square-info {
     display: flex;
+    height: 19em;
   }
 
   .personal-chart-info {
@@ -138,6 +159,27 @@ section {
 
   .personal-chart-info > a {
     margin-left: 10px;
+  }
+
+}
+
+@media screen and (max-width: 619px) {
+
+  .recipient-wrapper {
+    height: 475rem;
+    width: 100%;
+  }
+
+  .recipient-grid,
+  .sign-square {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    box-shadow: none;
+  }
+
+  .sign-square-info {
+    display: flex;
+    height: 21em;
   }
 
 }
